@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/MEstilos.css">
+	<link rel="stylesheet" href="css/estilos.css">
+	<title>Formulario</title>
+</head>
+<body background="img/DEPORTIN-Billar.jpg">
+	<h1 class="form__titulo" >Forumulario de Registro</h1>
+	<form action= "registroAdmin.php" method="post">
+		<h2 class="form__titulo" >Crea un administrador</h2>
+		<div>
+			<input type="text" id="Nombres" name="Nombres" placeholder="Nombres" class="input-48">
+
+			<input type="text" id="Apellido_P" name="Apellido_P" placeholder="Paterno" class="input-100">
+
+			<input type="text" id="Apellido_M" name="Apellido_M" placeholder="Apellido_Materno" class="input-48">
+
+			<input type="text" id="Edad" name="Edad" placeholder="edad" class="input-48">
+
+			<input type="text" id="usuario" name="usuario" placeholder="usuario" class="input-48">
+
+			<input type="password" id="password" name="password" placeholder="password" class="input-48">
+
+			<input type="text" id="id_personal" name="id_personal" placeholder="id_personal" class="input-48">
+
+			<input type="text" id="id_tipo" name="id_tipo" placeholder="id_tipo" class="input-100">
+
+			<input type="submit" value="Registrar!">
+		</div>
+	</form>
+	<form action="index.php">
+		<input type="submit" value="Regresar" class="input-100">
+	</form>
+	
+	<div class="footer menu-navegacion">
+	<ul>
+		<li><a href="logout.php" class="btn btn-primary btn-lg disabled" role="button">Cerrar sesion</a></li>
+		<li><a href="index.php" class="btn btn-primary btn-lg disabled" role="button">Ir a pantalla de inicio</a></li>
+		<li><a href="https://es.wikipedia.org/wiki/Digimon" class="btn btn-primary btn-lg disabled" role="button">Wiki</a></li>
+	</ul>
+	</div>
+
+</body>
+</html>
